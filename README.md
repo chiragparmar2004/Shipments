@@ -13,8 +13,8 @@ ClassConnect is a backend API for a classroom management platform that allows te
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/classconnect.git
-   cd classconnect
+   git clone https://github.com/chiragparmar2004/Shipments
+   cd Shipments
    ```
 
 2. Install dependencies:
@@ -39,7 +39,7 @@ CLOUDINARY_API_SECRET=VLlS3A4P-eWzDyoHJSItxnIREqM
 
 4. Start the server:
    ```bash
-   npm start
+   node server.js
    ```
 
 ## API Endpoints
