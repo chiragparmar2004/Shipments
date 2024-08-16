@@ -1,6 +1,7 @@
 import express from "express";
 import {
   addStudent,
+  assignTask,
   createClassroom,
   deleteClassroom,
   editClassroom,
@@ -49,6 +50,13 @@ router.delete(
   verifyToken,
   verifyTeacher,
   deleteClassroom
+);
+
+router.post(
+  "/classrooms/:classroomId/tasks",
+  verifyToken,
+  verifyTeacher,
+  assignTask
 );
 
 // View Task Submission Status
