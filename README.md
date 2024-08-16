@@ -24,12 +24,19 @@ ClassConnect is a backend API for a classroom management platform that allows te
    ```
 
 3. Set up the environment variables:
-   - Create a `.env` file in the root directory with the following content:
-     ```env
-     PORT=5000
-     MONGO_URI=mongodb://localhost:27017/classconnect
-     JWT_SECRET=your_jwt_secret_key
-     ```
+DB_URL="mongodb+srv://chiragp1:YSx14yV8yg04Ry3O@cluster0.4dip71p.mongodb.net/Shipment"
+
+PORT = 5000 
+
+JWT_SECRET_KEY=5T+tywbDw9D26GMKQlzu+iO0wg5CfB5P3wIAA8ElbDkWqX0y75XKIBsa+ii7//gYDjW6/YT0EX4IPYWxCc6YZQ==
+
+
+CLIENT_URL="http://localhost:5173"
+
+CLOUDINARY_CLOUD_NAME=doirdsrrz
+
+CLOUDINARY_API_KEY=562889281855774
+CLOUDINARY_API_SECRET=VLlS3A4P-eWzDyoHJSItxnIREqM
 
 4. Start the server:
    ```bash
