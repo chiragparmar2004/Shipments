@@ -14,8 +14,14 @@ const submissionSchema = new mongoose.Schema({
     enum: ["submitted", "pending"],
     default: "pending",
   },
-  fileUrl: String,
-  submittedAt: Date,
+  fileUrl: {
+    type: String,
+    required: true,
+  },
+  submittedAt: {
+    type: Date,
+    required: true,
+  },
 });
 
 export const Submission = mongoose.model("Submission", submissionSchema);
