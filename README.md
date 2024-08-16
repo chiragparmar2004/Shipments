@@ -1,4 +1,3 @@
-Here's a `README.md` with all the routes detailed out for testing purposes:
 
 ```markdown
 # ClassConnect Backend API
