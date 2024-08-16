@@ -1,9 +1,18 @@
 import mongoose from "mongoose";
 
 const taskSchema = new mongoose.Schema({
-  title: String,
-  description: String,
-  dueDate: Date,
+  title: {
+    type: String,
+    required: true,
+  },
+  description: {
+    type: String,
+    required: true,
+  },
+  dueDate: {
+    type: Date,
+    required: true,
+  },
   classroom: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Classroom",
